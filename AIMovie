@@ -50,16 +50,134 @@ This is AI. AI always does only three things:
   Thinks
   Gives Output
 🎬 Episode 2: How ChatGPT thinks
+  Reads your sentence
+  Understands your intent
+  Predicts the best next words
+  Sends the answer
+  It does not search Google every time.It predicts the next words based on what it has learned.
 🎬 Episode 3: What is an LLM?
+LLM = Large Language Model
+  The LLM is the robot's brain.    
+Examples:  Claude
+            GPT
+            Llama
+          Amazon Nova
+  All are different brains.
 🎬 Episode 4: What is Bedrock?
+Bedrock says - "Which brain do you want?"
+Bedrock doesn't answer questions itself. It connects you to a brain.
 🎬 Episode 5: What is RAG?
+That library trip is RAG. 
+Robot says
+"I forgot."
+You say
+"Go to the library."
+                        Question
+                        ↓
+                        Library
+                        ↓
+                        Find Book
+                        ↓
+                        Read
+                        ↓
+                        Answer
+
 🎬 Episode 6: What are Embeddings?
+Embeddings give information a position based on meaning.
 🎬 Episode 7: What is a Vector Database?
+                      Question
+                      ↓
+                      Find nearest meaning
+                      ↓
+                      Return answer
 🎬 Episode 8: What is a Knowledge Base?
+Knowledge Base is simply a smart librarian.You don't search yourself.The librarian does it.
 🎬 Episode 9: What are AI Agents?
+Now it can perform work or actions
 🎬 Episode 10: How Lambda works with AI
+Lambda is simply the worker.
 🎬 Episode 11: SageMaker explained
+Restaurant vs Kitchen.
+Restaurant
+Order Food
+↓
+Eat
+
+Kitchen
+Cook Yourself
+↓
+Eat
+
+Bedrock = Restaurant
+SageMaker = Kitchen
 🎬 Episode 12: Build your first AI chatbot
+User
+↓
+Website
+↓
+Bedrock
+↓
+Claude
+↓
+Answer
 🎬 Episode 13: Multi-modal AI (images, PDFs, audio)
+Robot now has more senses.Now AI understands more than text.
+👂 Audio
+👀 Images
+📄 PDFs
+🎥 Videos
+↓
+Brain
+↓
+Answer
 🎬 Episode 14: Complete AWS AI architecture
+User
+↓
+Bedrock
+↓
+Knowledge Base
+↓
+S3
+↓
+Claude
+↓
+Agent
+↓
+Lambda
+↓
+AWS
+↓
+Answer
 🎬 Episode 15: Real company project (end-to-end)
+Imagine you're building an HR assistant.
+
+Employees ask:
+
+"How many leave days do I have?"
+
+Flow:
+              Employee
+              ↓
+              Chatbot
+              ↓
+              Bedrock
+              ↓
+              Knowledge Base
+              ↓
+              HRPDFs
+              ↓
+              Claude
+              ↓
+              Answer
+"Create a leave request."
+                            Employee
+                            ↓
+                            Bedrock Agent    
+                            ↓
+                            Lambda
+                            ↓
+                            HR System API
+                            ↓
+                            Leave Created
+                            ↓
+                            Confirmation
