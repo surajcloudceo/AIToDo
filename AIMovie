@@ -1,0 +1,65 @@
+Every AI application is basically this:
+                            👤 User
+                               │
+                               ▼
+                            🤖 AI
+                               │
+                               ▼
+                            📚 Looks for information
+                               │
+                               ▼
+                            🧠 Understands it
+                               │
+                               ▼
+                            💬 Gives answer
+
+Now replace the cartoon with AWS services:
+                            👤 User
+                                  │
+                                  ▼
+                            🤖 Bedrock
+                                  │
+                                  ▼
+                            📚 Knowledge Base
+                                  │
+                                  ▼
+                            📦 S3 (PDFs)
+                                  │
+                                  ▼
+                            🧠 Claude
+                                  │
+                                  ▼
+                            💬 Answer
+Notice how nothing changes except the names.
+
+📦 S3 = Library where books are stored
+📚 Knowledge Base = Librarian who finds the correct book
+🤖 Bedrock = AI manager
+🧠 Claude = The brain that reads and answers
+
+-----------------------------------------------------------------
+🎬 AI Learning Series (From Zero → AI Platform Engineer)
+Imagine the whole AI system is a smart company.Each AWS service is an employee.
+By the end, you'll know what every employee does.
+
+Instead of reading long notes, we'll learn as a 15-episode animated story:
+
+🎬 Episode 1: What is AI? (Robot story)
+This is AI. AI always does only three things:
+  Takes Input
+  Thinks
+  Gives Output
+🎬 Episode 2: How ChatGPT thinks
+🎬 Episode 3: What is an LLM?
+🎬 Episode 4: What is Bedrock?
+🎬 Episode 5: What is RAG?
+🎬 Episode 6: What are Embeddings?
+🎬 Episode 7: What is a Vector Database?
+🎬 Episode 8: What is a Knowledge Base?
+🎬 Episode 9: What are AI Agents?
+🎬 Episode 10: How Lambda works with AI
+🎬 Episode 11: SageMaker explained
+🎬 Episode 12: Build your first AI chatbot
+🎬 Episode 13: Multi-modal AI (images, PDFs, audio)
+🎬 Episode 14: Complete AWS AI architecture
+🎬 Episode 15: Real company project (end-to-end)
